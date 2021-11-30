@@ -1,9 +1,9 @@
 <?php
 class Database
 {
-private $hostname="itehrest-mysqldbserver.mysql.database.azure.com";
-private $username="";
-private $password="";
+private $hostname="localhost";
+private $username="root";
+private $password="vakula";
 private $dbname;
 private $dblink; // veza sa bazom
 private $result; // Holds the MySQL query result
